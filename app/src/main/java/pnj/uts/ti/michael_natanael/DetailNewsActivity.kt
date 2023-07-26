@@ -1,7 +1,6 @@
 package pnj.uts.ti.michael_natanael
 
 import android.content.Context
-import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.Button
@@ -29,14 +28,15 @@ class DetailNewsActivity() : AppCompatActivity() {
         textDeskripsiBerita.text = sharedPreferences.getString("textDeskripsiBerita", "")
 
         backButton.setOnClickListener {
-            navigateToHome()
+            // Going back to the previous activity
+            finish()
         }
     }
 
-    private fun navigateToHome() {
-        val intent = Intent(this, HomeActivity::class.java)
-        startActivity(intent)
-        finish()
-    }
+//    private fun navigateToHome() {
+//        val intent = Intent(this, HomeActivity::class.java)
+//        startActivity(intent)
+//        finish()
+//    }
 
 }

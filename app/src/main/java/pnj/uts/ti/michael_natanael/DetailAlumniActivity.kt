@@ -63,7 +63,8 @@ class DetailAlumniActivity : AppCompatActivity() {
         }
 
         backButton.setOnClickListener {
-            navigateToHome()
+            // Going back to the previous activity
+            finish()
         }
     }
 
@@ -173,9 +174,9 @@ class DetailAlumniActivity : AppCompatActivity() {
         finish()
     }
 
-    private fun navigateToHome() {
-        val intent = Intent(this, HomeActivity::class.java)
-        startActivity(intent)
-        finish()
-    }
+//    private fun navigateToHome() {
+//        val intent = Intent(this, HomeActivity::class.java)
+//        startActivity(intent)
+//        finish()
+//    }
 }

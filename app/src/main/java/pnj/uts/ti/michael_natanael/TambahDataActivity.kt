@@ -88,7 +88,8 @@ class TambahDataActivity : AppCompatActivity(), DatePickerDialog.OnDateSetListen
         }
 
         backButton.setOnClickListener {
-            navigateToHome()
+            // Going back to the previous activity
+            finish()
         }
     }
 
@@ -118,11 +119,11 @@ class TambahDataActivity : AppCompatActivity(), DatePickerDialog.OnDateSetListen
         finish()
     }
 
-    private fun navigateToHome() {
-        val intent = Intent(this, HomeActivity::class.java)
-        startActivity(intent)
-        finish()
-    }
+//    private fun navigateToHome() {
+//        val intent = Intent(this, HomeActivity::class.java)
+//        startActivity(intent)
+//        finish()
+//    }
 }
 
 object DatabaseContract {

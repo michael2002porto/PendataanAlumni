@@ -37,7 +37,8 @@ class DataAlumniActivity : AppCompatActivity() {
             }
 
         backButton.setOnClickListener {
-            navigateToHome()
+            // Going back to the previous activity
+            finish()
         }
     }
 
@@ -73,11 +74,11 @@ class DataAlumniActivity : AppCompatActivity() {
         return alumniList
     }
 
-    private fun navigateToHome() {
-        val intent = Intent(this, HomeActivity::class.java)
-        startActivity(intent)
-        finish()
-    }
+//    private fun navigateToHome() {
+//        val intent = Intent(this, HomeActivity::class.java)
+//        startActivity(intent)
+//        finish()
+//    }
 }
 
 data class Alumni(val nim: String, val nama: String)
