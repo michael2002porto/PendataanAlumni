@@ -1,15 +1,19 @@
 package pnj.uts.ti.michael_natanael
 
+import android.app.DatePickerDialog
 import android.content.ContentValues
 import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
 import android.widget.Button
+import android.widget.DatePicker
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import java.text.SimpleDateFormat
+import java.util.*
 
-class DetailAlumniActivity : AppCompatActivity() {
+class DetailAlumniActivity : AppCompatActivity(), DatePickerDialog.OnDateSetListener {
     private lateinit var nimEditText: EditText
     private lateinit var namaAlumniEditText: EditText
     private lateinit var tempatLahirEditText: EditText
@@ -53,6 +57,10 @@ class DetailAlumniActivity : AppCompatActivity() {
         nim = intent.getStringExtra("nim") ?: ""
 
         displayAlumniData()
+
+        tanggalLahirEditText.setOnClickListener {
+            showDatePicker()
+        }
 
         editButton.setOnClickListener {
             updateAlumniData()
@@ -166,6 +174,26 @@ class DetailAlumniActivity : AppCompatActivity() {
         } else {
             Toast.makeText(this, "Gagal menghapus data alumni", Toast.LENGTH_SHORT).show()
         }
+    }
+
+    private fun showDatePicker() {
+        val calendar = Calendar.getInstance()
+        val year = calendar.get(Calendar.YEAR)
+        val month = calendar.get(Calendar.MONTH)
+        val day = calendar.get(Calendar.DAY_OF_MONTH)
+
+        val datePickerDialog = DatePickerDialog(this, this, year, month, day)
+        datePickerDialog.show()
+    }
+
+    override fun onDateSet(view: DatePicker?, year: Int, month: Int, dayOfMonth: Int) {
+        val selectedDate = Calendar.getInstance()
+        selectedDate.set(year, month, dayOfMonth)
+
+        val dateFormat = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault())
+        val formattedDate = dateFormat.format(selectedDate.time)
+
+        tanggalLahirEditText.setText(formattedDate)
     }
 
     private fun navigateToDataAlumni() {
