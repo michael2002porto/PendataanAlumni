@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".TambahDataActivity">
+
+    <EditText
+        android:id="@+id/nim_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM" />
+
+    <EditText
+        android:id="@+id/nama_alumni_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Alumni" />
+
+    <EditText
+        android:id="@+id/tempat_lahir_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tempat Lahir" />
+
+    <EditText
+        android:id="@+id/tanggal_lahir_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Tanggal Lahir" />
+
+    <EditText
+        android:id="@+id/alamat_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat" />
+
+    <EditText
+        android:id="@+id/agama_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Agama" />
+
+    <EditText
+        android:id="@+id/telepon_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telepon/HP" />
+
+    <EditText
+        android:id="@+id/tahun_masuk_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tahun Masuk" />
+
+    <EditText
+        android:id="@+id/tahun_lulus_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tahun Lulus" />
+
+    <EditText
+        android:id="@+id/pekerjaan_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pekerjaan" />
+
+    <EditText
+        android:id="@+id/jabatan_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jabatan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#9F9F9F"
+            android:text="Kembali" />
+
+        <Button
+            android:id="@+id/simpan_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="Simpan" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1030980478232",
+    "project_id": "pendataanalumni",
+    "storage_bucket": "pendataanalumni.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030980478232:android:09883a9dc46987750a6a6d",
+        "android_client_info": {
+          "package_name": "pnj.uts.ti.michael_natanael"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030980478232-rne32c01fen4d64tnuoaotkvls69686d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCooxu3_p4kNHAnWeMTAAjrQNuq2wjayn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030980478232-rne32c01fen4d64tnuoaotkvls69686d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
