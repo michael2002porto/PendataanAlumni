@@ -1,6 +1,8 @@
 package pnj.uts.ti.michael_natanael.auth
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -12,6 +14,7 @@ class SignInActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivitySignInBinding
     private lateinit var firebaseAuth: FirebaseAuth
+    private lateinit var sharedPreferences: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,8 +32,21 @@ class SignInActivity : AppCompatActivity() {
             val email: String = binding.txtEmail.text.toString()
             val password: String = binding.txtPass.text.toString()
 
+            sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
+            // Simpan data ke SharedPreferences
+            saveUserData(email)
+
             signin_firebase(email, password)
         }
+    }
+
+    private fun saveUserData(email: String) {
+        val editor = sharedPreferences.edit()
+        editor.putString("nama", "Michael Natanael")
+        editor.putString("kelas", "TI 4A")
+        editor.putString("nim", "2107411002")
+        editor.putString("email", email)
+        editor.apply()
     }
 
     private fun signin_firebase(email: String, password: String) {
