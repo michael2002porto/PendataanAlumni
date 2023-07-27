@@ -16,6 +16,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -33,6 +34,9 @@ android {
     }
     buildFeatures {
         viewBinding true
+    }
+    packagingOptions {
+        exclude 'androidsupportmultidexversion.txt'
     }
 }
 
@@ -62,4 +66,6 @@ dependencies {
 
     implementation 'androidx.room:room-runtime:2.5.2'
     implementation 'androidx.room:room-ktx:2.5.2'
+
+    implementation 'com.android.support:multidex:1.0.3'
 }
