@@ -108,7 +108,7 @@
         android:id="@+id/tv_signin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Belum Terdaftar ? , Sign In !"
+        android:text="Sudah Terdaftar ? , Sign In !"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

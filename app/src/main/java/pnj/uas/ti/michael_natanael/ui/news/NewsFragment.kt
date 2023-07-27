@@ -1,4 +1,4 @@
-package pnj.uts.ti.michael_natanael.ui.news
+package pnj.uas.ti.michael_natanael.ui.news
 
 import android.content.Context
 import android.content.Intent
@@ -9,10 +9,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
 import androidx.fragment.app.Fragment
-import pnj.uts.ti.michael_natanael.DetailNewsActivity
-import pnj.uts.ti.michael_natanael.R
-import pnj.uts.ti.michael_natanael.ui.news.adapter.AdapterListBerita
-import pnj.uts.ti.michael_natanael.ui.news.data.DataBerita
+import pnj.uas.ti.michael_natanael.DetailNewsActivity
+import pnj.uas.ti.michael_natanael.R
+import pnj.uas.ti.michael_natanael.ui.news.adapter.AdapterListBerita
+import pnj.uas.ti.michael_natanael.ui.news.data.DataBerita
 
 class NewsFragment : Fragment() {
     private lateinit var listView: ListView

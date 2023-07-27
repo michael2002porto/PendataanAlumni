@@ -1,15 +1,16 @@
 {
   "project_info": {
     "project_number": "1030980478232",
+    "firebase_url": "https://pendataanalumni-default-rtdb.firebaseio.com",
     "project_id": "pendataanalumni",
     "storage_bucket": "pendataanalumni.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1030980478232:android:09883a9dc46987750a6a6d",
+        "mobilesdk_app_id": "1:1030980478232:android:b5737e726624e9fd0a6a6d",
         "android_client_info": {
-          "package_name": "pnj.uts.ti.michael_natanael"
+          "package_name": "pnj.uas.ti.michael_natanael"
         }
       },
       "oauth_client": [

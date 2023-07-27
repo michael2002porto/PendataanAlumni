@@ -1,4 +1,4 @@
-package pnj.uts.ti.michael_natanael.ui.profile
+package pnj.uas.ti.michael_natanael.ui.profile
 
 import android.content.Context
 import android.content.Intent
@@ -12,8 +12,8 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import com.google.firebase.auth.FirebaseAuth
-import pnj.uts.ti.michael_natanael.R
-import pnj.uts.ti.michael_natanael.auth.SignInActivity
+import pnj.uas.ti.michael_natanael.R
+import pnj.uas.ti.michael_natanael.auth.SignInActivity
 
 class ProfileFragment : Fragment() {
     private lateinit var sharedPreferences: SharedPreferences

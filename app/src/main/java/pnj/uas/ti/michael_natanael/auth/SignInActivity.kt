@@ -1,4 +1,4 @@
-package pnj.uts.ti.michael_natanael.auth
+package pnj.uas.ti.michael_natanael.auth
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -19,8 +19,8 @@ import com.google.android.gms.location.LocationServices
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
-import pnj.uts.ti.michael_natanael.HomeActivity
-import pnj.uts.ti.michael_natanael.databinding.ActivitySignInBinding
+import pnj.uas.ti.michael_natanael.HomeActivity
+import pnj.uas.ti.michael_natanael.databinding.ActivitySignInBinding
 import java.text.SimpleDateFormat
 import java.util.*
 

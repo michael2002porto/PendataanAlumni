@@ -1,4 +1,4 @@
-package pnj.uts.ti.michael_natanael.auth
+package pnj.uas.ti.michael_natanael.auth
 
 import android.content.Context
 import android.content.Intent
@@ -7,8 +7,8 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
-import pnj.uts.ti.michael_natanael.HomeActivity
-import pnj.uts.ti.michael_natanael.databinding.ActivitySignUpBinding
+import pnj.uas.ti.michael_natanael.HomeActivity
+import pnj.uas.ti.michael_natanael.databinding.ActivitySignUpBinding
 
 class SignUpActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignUpBinding

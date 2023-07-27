@@ -1,4 +1,4 @@
-package pnj.uts.ti.michael_natanael.auth
+package pnj.uas.ti.michael_natanael.auth
 
 data class LogLoginActivities(
     val id: String? = null,

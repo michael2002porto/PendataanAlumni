@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'pnj.uts.ti.michael_natanael'
+    namespace 'pnj.uas.ti.michael_natanael'
     compileSdk 34
 
     defaultConfig {
-        applicationId "pnj.uts.ti.michael_natanael"
+        applicationId "pnj.uas.ti.michael_natanael"
         minSdk 19
         targetSdk 34
         versionCode 1

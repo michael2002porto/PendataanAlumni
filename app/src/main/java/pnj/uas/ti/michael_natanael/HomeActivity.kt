@@ -1,4 +1,4 @@
-package pnj.uts.ti.michael_natanael
+package pnj.uas.ti.michael_natanael
 
 import android.content.Context
 import android.content.Intent
@@ -13,8 +13,8 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.auth.FirebaseAuth
-import pnj.uts.ti.michael_natanael.auth.SignInActivity
-import pnj.uts.ti.michael_natanael.databinding.ActivityHomeBinding
+import pnj.uas.ti.michael_natanael.auth.SignInActivity
+import pnj.uas.ti.michael_natanael.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var sharedPreferences: SharedPreferences

@@ -1,4 +1,4 @@
-package pnj.uts.ti.michael_natanael.ui.news.adapter
+package pnj.uas.ti.michael_natanael.ui.news.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
-import pnj.uts.ti.michael_natanael.R
-import pnj.uts.ti.michael_natanael.ui.news.data.DataBerita
+import pnj.uas.ti.michael_natanael.R
+import pnj.uas.ti.michael_natanael.ui.news.data.DataBerita
 
 class AdapterListBerita(context: Context, resource: Int) :
     ArrayAdapter<DataBerita>(context, resource) {

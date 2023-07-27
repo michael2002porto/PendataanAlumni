@@ -1,4 +1,4 @@
-package pnj.uts.ti.michael_natanael.ui.home
+package pnj.uas.ti.michael_natanael.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import pnj.uts.ti.michael_natanael.databinding.FragmentHomeBinding
+import pnj.uas.ti.michael_natanael.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 

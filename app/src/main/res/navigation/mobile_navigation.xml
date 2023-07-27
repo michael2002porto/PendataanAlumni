@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="pnj.uts.ti.michael_natanael.ui.home.HomeFragment"
+        android:name="pnj.uas.ti.michael_natanael.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_news"
-        android:name="pnj.uts.ti.michael_natanael.ui.news.NewsFragment"
+        android:name="pnj.uas.ti.michael_natanael.ui.news.NewsFragment"
         android:label="@string/title_news"
         tools:layout="@layout/fragment_news" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="pnj.uts.ti.michael_natanael.ui.profile.ProfileFragment"
+        android:name="pnj.uas.ti.michael_natanael.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

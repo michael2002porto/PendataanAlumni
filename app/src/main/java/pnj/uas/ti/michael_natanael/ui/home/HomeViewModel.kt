@@ -1,4 +1,4 @@
-package pnj.uts.ti.michael_natanael.ui.home
+package pnj.uas.ti.michael_natanael.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

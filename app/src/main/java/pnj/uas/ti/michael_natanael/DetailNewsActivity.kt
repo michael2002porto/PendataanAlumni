@@ -1,4 +1,4 @@
-package pnj.uts.ti.michael_natanael
+package pnj.uas.ti.michael_natanael
 
 import android.content.Context
 import android.content.SharedPreferences

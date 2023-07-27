@@ -1,4 +1,4 @@
-package pnj.uts.ti.michael_natanael.ui.news.data
+package pnj.uas.ti.michael_natanael.ui.news.data
 
 class DataBerita {
 

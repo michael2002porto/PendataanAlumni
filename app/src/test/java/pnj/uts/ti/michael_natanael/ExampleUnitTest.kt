@@ -1,8 +1,7 @@
-package pnj.uts.ti.michael_natanael
+package pnj.uas.ti.michael_natanael
 
+import org.junit.Assert.assertEquals
 import org.junit.Test
-
-import org.junit.Assert.*
 
 /**
  * Example local unit test, which will execute on the development machine (host).
