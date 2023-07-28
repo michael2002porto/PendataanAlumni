@@ -6,4 +6,4 @@ Aplikasi Pendataan Alumni membantu dalam menyimpan dan mengelola informasi penti
 
 ## Youtube Link
 
-https://youtu.be/Wft57rjLQTQ
+https://youtu.be/aRYMWuZe0fE
